@@ -18,7 +18,7 @@ require('./negocio/routes')(app); // load our routes and pass in our app and ful
 
 //launch ======================================================================
 app.listen(port);
-console.log('The magic happens on port ' + port);
+console.log('http://localhost:3000/consultar');
 
 //catch 404 and forward to error handler
 app.use(function (req, res, next) {
